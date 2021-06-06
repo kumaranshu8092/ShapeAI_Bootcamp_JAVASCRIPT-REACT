@@ -4,8 +4,8 @@ function Footer(){
 
     var currYear=new Date().getFullYear;
   return(
-  <Footer>
+  <footer>
     <p>Copyright @ {currYear}</p>
-  </Footer>  );
+  </footer>  );
 }
 export default Footer;
